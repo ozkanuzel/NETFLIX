@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <div class="public">
+        <div class="box">
+            <h1 id="Netflix"><img src="netflix.png"></h1>
+            <p id="metin">Thank you for signing up at Netflix.Tell us more about yourself.</p>
+            <div class="box2">
+                <label class="font">Name</label><br>
+                <input type="text" name="" placeholder="Enter Your Name" class="input1"><br>
+                <label class="font">Age</label><br>
+                <input type="number" min="18" max="100"placeholder="Enter Your Age" class="input1"><br>
+                <label class="font">Email</label><br>
+                <input type="email" placeholder="Enter Your Email" class="input1"><br>
+                <label class="font">Content Type</label><br>
+                <input list="Content Type" placeholder="Series" class="input1"><br><br>
+                <!-- <label for="font">Content Type</label>
+                <form>
+                    <input list="broswers" name="broswers" placeholder="Series" class="input">
+                    <details>
+                        <option value="Series">Series</option>
+                        <option value="Films">Films</option>
+                        <option value="Games">Games</option>
+                    </details>
+                </form><br><br> -->
+                <label class="font">Movie Type</label>
+                <form>
+                    <input type="checkbox" id="Comedy" name="Comedy">
+                    <label for="Comedy" class="font">Comedy</label><br>
+                    <input type="checkbox" id="Action" name="Action">
+                    <label for="Action" class="font">Action</label><br>
+                    <input type="checkbox" id="Romance" name="Romance">
+                    <label for="Romance" class="font">Romance </label>
+                    <!-- <input type="checkbox" id="Horror" name="Horror">
+                    <label for="Horror" class="font">Horror </label> -->
+                </form><br>
+                <label class="font">Gender</label>
+                <form>
+                    <input type="radio" id="Male" name="language" value="Male">
+                    <label for="Male" class="font">Male</label><br>
+                    <input type="radio" name="language" id="Female" value="Female">
+                    <label for="Female" class="font">Female</label><br>
+                    <input type="radio" name="language" id="Other" value="Other">
+                    <label for="Other" class="font">Other</label>
+                </form><br>
+                <label class="font">Feedback</label>
+                <form>
+                    <textarea rows="" cols="" class="input txt"> any comment
+    </textarea><br>
+                </form><br>
+                <div ><button onclick="window.location.href='https://www.netflix.com/tr/'" id="send">Send</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
